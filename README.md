@@ -36,3 +36,5 @@ A web application demonstrating infinite scrolling functionality, built with HTM
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests for any enhancements or bug fixes.
+
+[Live Demo of the Project](https://niks1503.github.io/Infinite-Scrolling)
