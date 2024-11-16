@@ -11,6 +11,7 @@ async function loadImages() {
       img.src = image.urls.regular;
       img.style.height = "500px";
       img.style.width = "400px";
+      img.style.margin = "auto";
       box.appendChild(img);
     });
   } catch (error) {
@@ -22,7 +23,7 @@ loadImages();
 
 window.addEventListener("scroll", function () {
   if (
-    Math.ceil(window.scrollY + this.window.innerHeight + 50) >=
+    Math.ceil(window.scrollY + window.innerHeight + 50) >=
     document.body.offsetHeight
   ) {
     loadImages();
